@@ -8,15 +8,18 @@
   box-sizing: border-box;
 }
 
+/* リスト要素の頭の数や丸を消す */
 ul, ol {
   list-style: none;
 }
 
+/* a要素の青字・下線のスタイルを適用 */
 a {
   color: inherit;
   text-decoration: none;
 }
 
+/* body要素のスタイル */
 body {
   font-family: sans-serif;
   font-size: 16px;
@@ -25,10 +28,12 @@ body {
   background-color: #ffffff;
 }
 
+/* img要素の幅指定 */
 img {
   max-width: 100%;
 }
 
+/* header-innerの大きさ指定 */
 .header-inner {
   max-width: 1200px;
   height: 110px;
@@ -41,15 +46,18 @@ img {
   align-items: center;
 }
 
+/* メニューボタンを非表示（ハンバーガーメニュー用） */
 .toggle-menubutton {
   display: none;
 }
+
 
 .header-logo {
   display: block;
   width: 170px;
 }
 
+/* サイトメニューの項目を横並びに */
 .site-menu ul {
   display: flex;
 }
@@ -59,6 +67,7 @@ img {
   margin-right: 20px;
 }
 
+/* フッターのスタイル指定 */
 .footer { 
   color: #ffffff;
   background-color: #24211b;
@@ -69,6 +78,7 @@ img {
   align-items: center;
 }
 
+/* フッターの各要素のスタイル */
 .footer-logo {
   display: block;
   width: 235px;
